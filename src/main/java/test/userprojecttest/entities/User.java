@@ -1,4 +1,4 @@
-package test.userprojecttest.entoties;
+package test.userprojecttest.entities;
 
 
 import jakarta.persistence.*;
@@ -9,7 +9,7 @@ import lombok.*;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "employee")
+@Table(name = "users")
 public class User {
 
     @Id
@@ -18,6 +18,6 @@ public class User {
     private String firstName;
     private String lastName;
     private int tlf;
-    private int company;
+    private long companyId;
 
 }
