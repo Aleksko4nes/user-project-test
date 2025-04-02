@@ -17,7 +17,6 @@ import java.util.Optional;
 public class UserServiceImpl implements UserService{
 
     private final UserRepository userRepository;
-    private final ObjectMapper objectMapper;
 
     @Override
     public User createUser(UserDto userDto) {
